@@ -1,1 +1,0 @@
-https://grads521.github.io/rsschool-cv/cv
