@@ -17,8 +17,8 @@ createNode(element, attributes) {
       document.querySelector('.nameGame').append(divSumAnswer);
   }
 ```
-1. **I started learn html on alone last year**
-**some projects**
-**long page with html css**https://github.com/Grads521/first
-**small page with adaptive css**https://github.com/Grads521/kurmak-certs-layout     
+1. **I started learn html on alone last year**\
+**some projects**\
+**long page with html css**https://github.com/Grads521/first\ 
+**small page with adaptive css**https://github.com/Grads521/kurmak-certs-layout\     
 1. **My english level - b2**
