@@ -19,6 +19,6 @@ createNode(element, attributes) {
 ```
 1. **I started learn html on alone last year**\
 **My projects:**\
-**Long page with html css-**https://github.com/Grads521/first \
-**Small page with adaptive css-**https://github.com/Grads521/kurmak-certs-layout \
+**Long page with html css-** https://github.com/Grads521/first \
+**Small page with adaptive css-** https://github.com/Grads521/kurmak-certs-layout 
 1. **My english level - b2**
