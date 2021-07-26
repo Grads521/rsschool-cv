@@ -31,6 +31,10 @@ footer {
   display: flex;
   align-items: center;
 }
+.time {
+  margin-left: 20px;
+  font-weight: 700;
+}
 .container-course-photo {
   margin-left: 30px;
 }
