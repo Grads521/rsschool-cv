@@ -70,3 +70,72 @@ body.cv a:hover {
 .header-nav .icon {
   display: none;
 }
+/*  Left Column  */
+.cv-photoname{
+  padding: 30px;
+}
+.cv-h1{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 2em;
+  color: #010000;
+}
+.cv-figure{
+  margin: 0;
+}
+.cv-photo {
+  max-width: 100%;
+}
+.cv-contacts{
+  padding: 30px;
+}
+.cv-skills{
+  padding-bottom: 30px;
+}
+.cv-contacts,
+.cv-contacts a{
+  color: #ffffff;
+
+}
+.contacts-link{
+  border-bottom: 1px solid #ffffff;
+}
+.contacts-list{
+  list-style: none;
+  padding: 0;
+}
+.contacts-item{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.contacts-item img{
+  width: 40px;
+  margin-right: 10px;
+}
+.contacts-linkimg{
+  border: none;
+}
+.cv-skills-list{
+  color: #ffffff;
+  list-style: none;
+  padding-left: 15px;
+}
+.cv-skills-item{
+  position: relative;
+  margin-bottom: 7px;
+}
+.cv-skills-item::before{
+  content: "";
+  position: absolute;
+  left: -15px;
+  top: calc(50% - 3px);
+  display: block;
+  height: 6px;
+  width: 6px;
+  background-color: #ecb830;
+  border-radius: 100%;
+}
+.cv-h2-white{
+  color: #ffffff;
+}
