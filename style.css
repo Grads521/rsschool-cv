@@ -179,3 +179,19 @@ body.cv a:hover {
 .cv-table-td{
   padding: 15px 20px;
 }
+/*  Footer  */
+.cv-footer{
+  color: #3b3b3b;
+  background-color: #ecb830;
+}
+.cv-footer a{
+  color:#3b3b3b;
+  border-bottom: 1px solid #3b3b3b;
+}
+.cv-footer-item{
+  padding: 15px;
+  text-align: center;
+}
+.cv-footer-img{
+  width: 100px;
+}
