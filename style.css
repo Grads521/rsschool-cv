@@ -139,3 +139,43 @@ body.cv a:hover {
 .cv-h2-white{
   color: #ffffff;
 }
+/*  Right Column    */
+.cv-white a{
+  color: #3b3b3b;
+  border-bottom: 1px solid #3b3b3b;
+}
+.right-column .cv-sec{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.right-column .cv-h2{
+  position: relative;
+  padding-left: 40px;
+}
+.right-column .cv-h2 img{
+  position: absolute;
+  left: 0;
+  width: 30px;
+}
+.right-column .cv-text p {
+  margin-top: 20px;
+}
+.right-column .cv-code .my-code {
+  max-width: 100%;
+}
+.right-column .cv-my-works a {
+  border-bottom: none;
+}
+.right-column .cv-my-works .my-works {
+  max-width: 70%;
+  margin: 20px 0;
+}
+.right-column .cv-sec.cv-english{
+  padding-bottom: 30px;
+}
+.block-right .cv-sec.cv-summary{
+  padding-top: 30px;
+}
+.cv-table-td{
+  padding: 15px 20px;
+}
