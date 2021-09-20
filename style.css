@@ -1,43 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
 * {
   margin: 0;
   padding: 0;
 }
-body {
-  background-color: aqua;
+
+html {
+  scroll-behavior: smooth;
+}
+body.cv {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #3b3b3b;
+}
+body.cv a {
+  text-decoration: none;
+}
+body.cv a:hover {
+  border: none;
 }
 .container {
-  background-color: bisque;
-
   width: 1400px;
   margin: 0 auto;
 }
-h1 {
-  font-size: 40px;
+.cv-orange {
+  background-color: #ecb830;
 }
-.my-photo {
-  width: 20%;
+.cv-orange{
+  background-color: #ecb830;
 }
-main {
-  font-size: 20px;
+.cv-grey{
+  background-color: #3b3b3b;
 }
-ul {
-  list-style: none;
-  margin-left: 20px;
+.cv-white{
+  background-color: #f1f1ef;
 }
-p {
-  margin-left: 20px;
+.cv-sec{
+  padding: 0 30px;
 }
-footer {
-  display: flex;
-  align-items: center;
+.cv-h1, .cv-h2{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
-time {
-  margin-left: 20px;
-  font-weight: 700;
-}
-.container-course-photo {
-  margin-left: 30px;
-}
-.course-photo {
-  width:40%;
+.cv-h2{
+  margin-bottom: 15px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #ecb830;
 }
