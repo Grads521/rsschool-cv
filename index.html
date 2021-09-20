@@ -1,60 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My cv</title>
-  <link rel="stylesheet" href="./style.css"> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isaev Maxim CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-  <div class="container">
-    <header>
-      <h1>Maxim Isaev</h1>
-      <img class="my-photo" src="./img/me.svg" alt="myPhoto">
+<body class="cv">
+<div class="container">
+    <header class="header-container" id="home">
+        <navs class="header-nav" id="myNav">
+            <a href="#home" class="active">Home</a>
+            <a href="#summary">Summary</a>
+            <a href="#contacts">Contacts</a>
+            <a href="#skills">Skills</a>
+            <a href="#my-code">My code</a>
+            <a href="#education">Education</a>
+            <a href="#my-works">My works</a>
+            <a href="#english">English</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </navs>
     </header>
-    <main>
-      <section>
-          <h2>Contact information</h2>
-            <ul>
-              <li>Discord: <b>Stierlitz#3149</b></li>
-              <li>Skype: <b>Grads521</b></li>
-              <li>Twitter: <b>@StierlitzCIS</b></li>
-            </ul>
-          <h2>About myself</h2>
-            <p>Hi. I'm 25 years old. Ex-progamer. Computer is my life<br>
-              I liked the idea to help people use sites. This is why i decide to join course.<br>
-              <br>
-              I started learning html last year.
-              I know a bit html,css,js and IDE Webstorm.
-            </p>
-          <h3>Code example:</h3>  
-          <pre>
-            <code>
-  createSumAnswer() {
-      const divSumAnswer = this.createNode('div', {
-          className: 'sumAnswer',
-          textContent: `Правильных ответов: ${this.sumAnswer}`,
-      });
-      document.querySelector('.nameGame').append(divSumAnswer);
-  }
-            </code>
-          </pre>  
-          <h3>My Projects:</h3>
-          <ul>
-            <li>Long page with html css - <a href="https://grads521.github.io/first/dist/">https://grads521.github.io/first/dist/</a></li>
-            <li>Small page with adaptive css - <a href="https://grads521.github.io/kurmak-certs-layout/">https://grads521.github.io/kurmak-certs-layout/</a></li>
-          </ul>
-          <h3>My English Level: B2</h3>  
-      </section>
+    <main class="cv-main">
+        <aside class="left-column cv-grey">
+            <section class="cv-sec cv-photoname cv-orange">
+                <figure class="cv-figure">
+                    <img class="cv-photo" src="./img/me.svg" alt="myPhoto">
+                </figure>
+                <h1 class="cv-h1">Isaev Maxim</h1>
+            </section>
+
+            <section class="cv-sec cv-contacts" id="contacts">
+                <h2 class="cv-h2 cv-h2-white">Contacts</h2>
+                <ul class="contacts-list">
+                    <li class="contacts-item">
+                        <a class="contacts-linkimg" href="https://t.me/stierlitz_lol" title="isaev maxim telegram">
+                            <img src="img/icons/telegram-orange.svg" alt="isaev maxim telegram">
+                        </a>
+                        <a class="contacts-link" href="https://t.me/stierlitz_lol" title="isaev maxim telegram">@stierlitz_lol</a>
+                    </li>
+                    <li class="contacts-item">
+                        <a class="contacts-linkimg" href="mailto:isaevmaxim2010@gmail.com" title="isaev maxim gmail">
+                            <img src="img/icons/mail-orange.svg" alt="isaev maxim gmail">
+                        </a>
+                        <a class="contacts-link" href="mailto:isaevmaxim2010@gmail.com" title="isaev maxim gmail">isaevmaxim2010@gmail.com</a>
+                    </li>
+                    <li class="contacts-item">
+                        <a class="contacts-linkimg" href="https://github.com/Grads521" title="isaev maxim github">
+                            <img src="img/icons/github-orange.svg" alt="isaev maxim github">
+                        </a>
+                        <a class="contacts-link" href="https://github.com/Grads521" title="isaev maxim github">Grads521</a>
+                    </li>
+                    <li class="contacts-item">
+                        <a class="contacts-linkimg" href="https://twitter.com/StierlitzCIS" title="isaev maxim twitter">
+                            <img src="img/icons/twitter-orange.svg" alt="isaev maxim twitter">
+                        </a>
+                        <a class="contacts-link" href="https://twitter.com/StierlitzCIS" title="isaev maxim twitter">Grads521</a>
+                    </li>
+                    <li class="contacts-item">
+                        <img src="img/icons/discord-orange.svg" alt="isaev maxim discord">
+                        <span>Stierlitz#3149</span>
+                    </li>
+                    <li class="contacts-item">
+                        <img src="img/icons/skype-orange.svg" alt="isaev maxim skype">
+                        <span>Grads521</span>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="cv-sec cv-skills" id="skills">
+                <h2 class="cv-h2 cv-h2-white">Skills</h2>
+                <ul class="cv-skills-list">
+                    <li class="cv-skills-item">HTML</li>
+                    <li class="cv-skills-item">CSS</li>
+                    <li class="cv-skills-item">JS</li>
+                    <li class="cv-skills-item">IDE(Webstorm)</li>
+                </ul>
+            </section>
+        </aside>
+        <div class="right-column cv-white">
+            <section class="cv-sec cv-summary" id="summary">
+                <h2 class="cv-h2">
+                    <img src="img/icons/summary-grey.svg" alt=""> Summary
+                </h2>
+                <div class="cv-text">
+                    <p>Hi. I'm 26 years old. Ex-progamer. I've been using a computer all my life.
+                        I liked the idea to help people use sites. This is why i decide to join course.
+                        I started learning html last year. I know a bit html,css,js and IDE Webstorm.</p>
+                    <p>I want to improve my knowledge and find job as a Front-End Developer.</p>
+                </div>
+            </section>
+
+            <section class="cv-sec cv-code" id="my-code">
+                <h2 class="cv-h2">
+                    <img src="img/icons/code-grey.svg" alt=""> Example of My Code
+                </h2>
+                <img class="my-code" src="img/my-code.png" alt="my-code">
+            </section>
+
+            <section class="cv-sec cv-education" id="education">
+                <h2 class="cv-h2">
+                    <img src="img/icons/education-grey.svg" alt=""> Education
+                </h2>
+
+                <h3 class="cv-h3">Incomplete Higher Education</h3>
+                <div class="cv-table">
+                    <div class="cv-table-row">
+                        <div class="cv-table-td">2017-2020</div>
+                        <div class="cv-table-td">
+                            <b>University:</b> BSTU "Voenmeh" D.F. Ustinov <br>
+                            <b>Speciality:</b> Standardization and Metrology
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="cv-sec cv-my-works" id="my-works">
+                <h2 class="cv-h2">
+                    <img src="img/icons/my-works-grey.svg" alt=""> My works
+                </h2>
+
+                <h3 class="cv-h3">Certificate</h3>
+                <div class="cv-text">
+                    <p>It was a training from Valery Kurmak. My first acquaintance with adaptive. Simple html and css.</p>
+                    <a href="https://grads521.github.io/kurmak-certs-layout/"><img class="my-works" src="img/my-works/certificate.png" alt=""></a>
+                </div>
+                <h3 class="cv-h3">Salon layout</h3>
+                <div class="cv-text">
+                    <p>My first project. I learned to use html and css.</p>
+                    <a href="https://grads521.github.io/first/dist/"><img class="my-works" src="img/my-works/salon.png"></a>
+                </div>
+            </section>
+
+            <section class="cv-sec cv-english" id="english">
+                <h2 class="cv-h2">
+                    <img src="img/icons/english-grey.svg" alt=""> English
+                </h2>
+                <div class="cv-text">
+                    <p>Pre-intermediate/Intermediate (A2/B1)</p>
+                </div>
+            </section>
+        </div>
     </main>
-    <footer>
-      <a href="https://github.com/Grads521">My GitHub</a>
-      <time>2021</time>
-      <a href="https://rs.school/js/" class="container-course-photo">
-        <img class="course-photo" src="./img/rs_school_js.svg" alt="coursePhoto">
-      </a>
+    <footer class="cv-footer">
+        <div class="cv-footer-item">
+            <a href="https://github.com/Grads521">Isaev Maxim Github</a>
+        </div>
+        <div class="cv-footer-item">
+            <time>2021</time>
+        </div>
+        <div class="cv-footer-item">
+            <a href="https://rs.school/js/" title="rsschool site">
+                <img class="cv-footer-img" src="img/rs_school_js.svg" alt="rsschool logo">
+            </a>
+        </div>
     </footer>
-  </div>
+    <script src="script.js"></script>
+</div>
 </body>
 </html>
